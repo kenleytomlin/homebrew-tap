@@ -10,23 +10,22 @@ class Workspace < Formula
   on_macos do
     on_arm do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-darwin-arm64.tar.gz"
-      # sha256 will be updated after first release
-      sha256 "PLACEHOLDER"
+      sha256 "597dc73e45e2aee31ffb9940ec5945c2ed1e466a91241a4252358f3677c554fe"
     end
     on_intel do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-darwin-x64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "ea3f28e2d13c45b5883c38e8cc59b9de33a0e2e8dbb0b45e550b8d4fa9a1ada8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-linux-x64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "968815d312023282063ace8bbfa035833f6ad39d8e877b9c82cbaa34fab630ef"
     end
     on_intel do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-linux-x64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "968815d312023282063ace8bbfa035833f6ad39d8e877b9c82cbaa34fab630ef"
     end
   end
 
