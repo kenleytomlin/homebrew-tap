@@ -10,22 +10,22 @@ class Workspace < Formula
   on_macos do
     on_arm do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-darwin-arm64.tar.gz"
-      sha256 "597dc73e45e2aee31ffb9940ec5945c2ed1e466a91241a4252358f3677c554fe"
+      sha256 "81fc8a4854e817ec612afdef2bd7059c82f7109373c30f6d5eaa64d23ec0420c"
     end
     on_intel do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-darwin-x64.tar.gz"
-      sha256 "ea3f28e2d13c45b5883c38e8cc59b9de33a0e2e8dbb0b45e550b8d4fa9a1ada8"
+      sha256 "09312e8d3c2e2449df7db3e33c7b8c2459c6db749ff7bba9918af5833f06005d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-linux-x64.tar.gz"
-      sha256 "968815d312023282063ace8bbfa035833f6ad39d8e877b9c82cbaa34fab630ef"
+      sha256 "cdc3e4f98a984287c28cb18b39af578db177f15096d0ee3793baa99d81e7e34d"
     end
     on_intel do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-linux-x64.tar.gz"
-      sha256 "968815d312023282063ace8bbfa035833f6ad39d8e877b9c82cbaa34fab630ef"
+      sha256 "cdc3e4f98a984287c28cb18b39af578db177f15096d0ee3793baa99d81e7e34d"
     end
   end
 
