@@ -4,28 +4,28 @@
 class Workspace < Formula
   desc "Buildpacks for agent-friendly git repos"
   homepage "https://github.com/kenleytomlin/workspace-cli"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-darwin-arm64.tar.gz"
-      sha256 "0c20d8b11b774efb86d9141e56b23f2880507e9893d8050507a1d42fad96397b"
+      sha256 "8d697fad93941e8e08ed22b3bb0bbe2ff4b489d77f5a68c8b82eb1e4572a0372"
     end
     on_intel do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-darwin-x64.tar.gz"
-      sha256 "43629ac82476b30b8ad05f6342cda06c43d7e6838b56f95122385db1d164350b"
+      sha256 "09ef3bfa062c7958829a95d41399face8204cd2cf09d093925e53dec00075cbf"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-linux-x64.tar.gz"
-      sha256 "17237a8b036200b90f273f9765e3bcec7667c9706a554428905161bac900265a"
+      sha256 "b264901ccac13c58b8a49b0c4dbcb5f1ce7dca1e6327c5f219352977670786f5"
     end
     on_intel do
       url "https://github.com/kenleytomlin/workspace-cli/releases/download/v#{version}/workspace-linux-x64.tar.gz"
-      sha256 "17237a8b036200b90f273f9765e3bcec7667c9706a554428905161bac900265a"
+      sha256 "b264901ccac13c58b8a49b0c4dbcb5f1ce7dca1e6327c5f219352977670786f5"
     end
   end
 
